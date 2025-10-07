@@ -1,8 +1,8 @@
 # Haar
 
 [![license](https://img.shields.io/badge/license-MIT-red.svg)](LICENSE)
-[![go version](https://img.shields.io/github/go-mod/go-version/TuanKiri/haar)](go.mod)
-[![go report](https://goreportcard.com/badge/github.com/TuanKiri/haar)](https://goreportcard.com/report/github.com/TuanKiri/haar)
+[![go version](https://img.shields.io/github/go-mod/go-version/ezh0v/haar)](go.mod)
+[![go report](https://goreportcard.com/badge/github.com/ezh0v/haar)](https://goreportcard.com/report/github.com/ezh0v/haar)
 
 This project provides a Golang implementation of the Haar 2D transform, following an approach similar to [imgSeek](https://sourceforge.net/projects/imgseek). The library can generate image hashes for indexing and similarity search in [iqdb](https://github.com/danbooru/iqdb).
 
@@ -13,7 +13,7 @@ This project provides a Golang implementation of the Haar 2D transform, followin
 ## Installation
 
 ```shell
-go get github.com/TuanKiri/haar
+go get github.com/ezh0v/haar
 ```
 
 ## Quick Start
@@ -28,7 +28,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/TuanKiri/haar"
+	"github.com/ezh0v/haar"
 )
 
 func main() {

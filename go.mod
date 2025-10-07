@@ -1,4 +1,4 @@
-module github.com/TuanKiri/haar
+module github.com/ezh0v/haar
 
 go 1.24.1
 
